@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@android:color/white"
+                      android:orientation="horizontal"
+                      android:layout_weight="2">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/text_view_usuario"
+                      android:layout_marginLeft="5dp"
+                      android:layout_weight="1.25"
+                      android:gravity="center_vertical"
+                      android:textColor="@android:color/black"
+                      android:textSize="@dimen/regular_size"
+                      android:text="usuario"
+                      android:textStyle="bold"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal"
+                          android:layout_weight="1">
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="2"
+                          android:layout_gravity="center_horizontal"
+                          android:textColor="@android:color/black"
+                          android:textSize="15sp"
+                          android:textStyle="bold|italic"
+                          android:text="@string/text_in"
+                          android:gravity="center_vertical"/>
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1.5"
+                          android:gravity="center_vertical|center_horizontal"
+                          android:textColor="@android:color/black"
+                          android:textSize="15sp"
+                          android:textStyle="bold|italic"
+                          android:text="@string/text_out"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.5"
+                      android:orientation="vertical">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:layout_weight="2.5"
+                              android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1.5"
+                              android:orientation="horizontal">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:gravity="center_horizontal"
+                              android:textColor="@color/color_white_default"
+                              android:textSize="@dimen/regular_size"
+                              android:id="@+id/edit_text_user"
+                              android:inputType="numberDecimal|numberSigned" android:text="R$ 0,00"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:editable="false"
+                              android:text="R$ 0,00"
+                              android:layout_weight="1"
+                              android:gravity="center_horizontal"
+                              android:textColor="@color/color_white_default"
+                              android:textSize="@dimen/regular_size"
+                              android:id="@+id/edit_text_user_out"
+                              android:inputType="numberDecimal|numberSigned"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

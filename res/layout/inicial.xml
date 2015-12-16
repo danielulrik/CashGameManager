@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/color_white_default"
+              android:layout_marginBottom="40dp"
+              android:textSize="@dimen/title_size"
+              android:text="@string/titulo_inicial"/>
+
+    <Spinner android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:id="@+id/spinner_rounds"
+             android:layout_marginBottom="50dp"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_entrar"
+            android:layout_marginBottom="5dp"
+            android:textSize="@dimen/regular_size"
+            android:text="@string/text_sign_in"
+            android:background="@drawable/seletor_botao"
+            android:shadowColor="@android:color/holo_blue_light"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="5dp"
+              android:textColor="@color/color_white_default"
+              android:gravity="center_horizontal"
+              android:textSize="@dimen/regular_size"
+              android:text="@string/text_or"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_criar"
+            android:textSize="@dimen/regular_size"
+            android:background="@drawable/seletor_botao"
+            android:text="@string/text_include_round"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_include_new_user"
+            android:textSize="@dimen/regular_size"
+            android:background="@drawable/seletor_botao"
+            android:text="@string/text_include_user"/>
+
+</LinearLayout>

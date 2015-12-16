@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+    <!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/scrollView1"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@color/color_white_default"-->
+    <!--android:id="@+id/text_view_titulo_rank"-->
+    <!--android:textSize="@dimen/regular_size"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:text="Titulo"/>-->
+
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView1">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:id="@+id/container_user_position"/>
+
+    </ScrollView>
+
+    <!--<LinearLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="5dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:background="@color/color_red"-->
+    <!--android:textColor="@color/color_white_default"-->
+    <!--android:textSize="@dimen/title_size"-->
+    <!--android:text="@string/text_round_winnings"/>-->
+
+    <!--<LinearLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="@color/color_white_default"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="@dimen/regular_size"-->
+    <!--android:text="@string/text_first_place_number" android:gravity="center_horizontal"/>-->
+
+    <!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:textColor="@color/color_white_default"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="@dimen/regular_size"-->
+    <!--android:id="@+id/first_place_prize"-->
+    <!--android:text="R$ 10"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="@color/color_white_default"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="@dimen/regular_size"-->
+    <!--android:text="@string/text_second_place_number" android:gravity="center_horizontal"/>-->
+
+    <!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:textColor="@color/color_white_default"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="@dimen/regular_size"-->
+    <!--android:id="@+id/second_place_prize"-->
+    <!--android:text="R$ 10"/>-->
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>
+

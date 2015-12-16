@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="daidalos_hello">Hello World!</string>
+    <string name="daidalos_app_name">aFileDialog</string>
+    <color name="daidalos_gray">#888</color>
+    <string name="daidalos_select">Selecionar</string>
+    <string name="daidalos_cancel">Cancelar</string>
+    <string name="daidalos_ok">OK</string>
+    <string name="daidalos_new_file">Novo</string>
+    <string name="daidalos_create_file">Criar arquivo</string>
+    <string name="daidalos_create_folder">Criar pasta</string>
+    <string name="daidalos_accept">Aceitar</string>
+    <string name="daidalos_enter_file_name">Digite o nome do arquivo que deseja criar</string>
+    <string name="daidalos_enter_folder_name">Digite o nome da pasta que deseja criar</string>
+    <string name="daidalos_yes">Sim</string>
+    <string name="daidalos_no">Não</string>
+    <string name="daidalos_confirm_select_file">Você tem certeza que deseja selecionar o arquivo \'$file_name\'?
+    </string>
+    <string name="daidalos_confirm_create_file">O arquivo \'$file_name\' não existe, você tem certeza que deseja
+        criá-lo?
+    </string>
+    <string name="daidalos_confirm_select_folder">Você tem certeza que deseja selecionar a pasta \'$file_name\'?
+    </string>
+    <string name="daidalos_confirm_create_folder">A pasta \'$file_name\' não existe, você tem certeza que deseja
+        criá-la?
+    </string>
+    <color name="daidalos_backgroud">#000</color>
+    <color name="daidalos_active_file">#fff</color>
+    <color name="daidalos_inactive_file">#888</color>
+
+</resources>

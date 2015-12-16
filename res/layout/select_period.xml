@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/title"
+              android:layout_marginBottom="30dp"
+              android:textSize="@dimen/title_size"
+              android:text="@string/text_create_round"/>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layout_ini"
+                  android:layout_marginBottom="10dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="5dp"
+                  android:textSize="@dimen/regular_size"
+                  android:text="@string/text_initial_date"
+                  android:layout_weight="1"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/regular_size"
+                android:editable="false"
+                android:id="@+id/editDataIni"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layout_fim"
+                  android:layout_marginBottom="10dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="5dp"
+                  android:textSize="@dimen/regular_size"
+                  android:text="@string/text_end_date"
+                  android:layout_weight="1"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/regular_size"
+                  android:editable="false"
+                  android:id="@+id/editDataFim"
+                  android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layout_buy"
+                  android:layout_marginBottom="30dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="5dp"
+                  android:textSize="@dimen/regular_size"
+                  android:text="@string/text_enrollment"
+                  android:layout_weight="1"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/regular_size"
+                  android:id="@+id/editTaxa"
+                  android:inputType="numberDecimal"
+                  android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical"
+                  android:layout_marginBottom="30dp">
+
+        <ImageButton android:layout_width="75dp"
+                     android:layout_height="70dp"
+                     android:id="@+id/img_button_add_users"
+                     android:background="@drawable/seletor_botao"
+                     android:layout_marginRight="5dp"
+                     android:src="@drawable/add_contestants"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/count_members"
+                  android:layout_marginRight="5dp"
+                  android:textSize="@dimen/regular_size"
+                  android:text="@string/text_members"/>
+
+    </LinearLayout>
+
+    <!--container buttons-->
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layout_save"
+                  android:orientation="horizontal">
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seletor_botao"
+                android:layout_marginRight="1dp"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/btn_salvar_round"
+                android:text="@string/text_save_new_round"
+                android:layout_weight="1"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seletor_botao"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/btn_selecionar_existente"
+                android:text="@string/text_select_existing_one"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">s</string>
+    <string name="text_lancamentos">Balances</string>
+    <string name="txt_lancar">Save</string>
+    <string name="text_valores_lancados">Values saved.</string>
+    <string name="text_lancar">Save balance</string>
+    <string name="msg_data_ini_menor">Initial date can\'t be lesser than final date</string>
+    <string name="msg_todos_campos_nao_preenchidos">All fields must be filled.</string>
+    <string name="msg_data_ini_before_last_fim">Initial date must be greater than final date of the last tournament.
+    </string>
+    <string name="text_spinner_adapter">"º tournament "</string>
+    <string name="msg_sel_round_para_entrar">Select or create a new tournament to enter.</string>
+    <string name="text_first_tourn">" º Tournament"</string>
+    <string name="msg_valores_nao_preenchidos">All fields must be filled.</string>
+    <string name="msg_data_fora_periodo">Invalid date, check period of tournament.</string>
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="titulo_inicial">Select tournament:</string>
+    <string name="msg_create_new_round">CREATE TOURNAMENT \nTO\n SIGN IN</string>
+    <string name="text_create_round">Create new tournament</string>
+    <string name="text_initial_date">Initial date:</string>
+    <string name="text_end_date">End date:</string>
+    <string name="text_enrollment">Buy-in (R$):</string>
+    <string name="text_save_new_round">Save</string>
+    <string name="text_select_existing_one">Select one</string>
+    <string name="text_tournament_period">Tournament period</string>
+    <string name="user_already_in_db">User name already in database, please choose another one.</string>
+    <string name="msg_user_saved">User inserted with success.</string>
+    <string name="title">Tournament Winnings Rank</string>
+    <string name="title_new_round">TWR: new tournament</string>
+    <string name="msg_user_empty">User name can\'t be empty.</string>
+    <string name="text_pick_to_participate">"Select users to participate: "</string>
+    <string name="text_finished">Finished</string>
+    <string name="msg_at_least_two">At least two players must be included to create tournament.</string>
+    <string name="text_pos_char">" º"</string>
+    <string name="text_atencao">Attention</string>
+    <string name="text_in">Buy-In</string>
+    <string name="text_out">Out-With</string>
+    <string name="title_app">Tournament Winnings Rank</string>
+    <string name="text_balance_day">"Balance of the day "</string>
+    <string name="initial_value_in">R$ 2,00</string>
+    <string name="text_insert_value">Insert value</string>
+    <string name="create_new_user">Create new user</string>
+    <string name="text_status">Status:</string>
+    <string name="text_sign_in">Sign in</string>
+    <string name="title_out_value">Out value</string>
+    <string name="text_total_of">"Total of: "</string>
+    <string name="text_participants">Participants</string>
+    <string name="text_members">Members: 0</string>
+    <string name="text_round_winnings">Tournament Winnings</string>
+    <string name="text_first_place_number">1º place:</string>
+    <string name="text_status_ok">VALORES LANÇADOS</string>
+</resources>
